@@ -1,9 +1,10 @@
-# Docker Study 📚
+# Infra Study 📚
 
-맨바닥부터 시작하는 docker 여행기
+개념부터 다시 잡고, 하나하나 만들어보기
 
 ## 목표
 
+- [ ] ec2 생성
 - [ ] Docker 설치
 - [ ] Image 이해
 - [ ] Container 이해
@@ -11,9 +12,5 @@
 - [ ] Network
 - [ ] Docker Compose
 
----
 
-## docker 여행 기록
-
-### 2026-07-13
 
