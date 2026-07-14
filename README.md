@@ -4,13 +4,27 @@
 
 ## 목표
 
-- [ ] ec2 생성
-- [ ] Docker 설치
-- [ ] Image 이해
-- [ ] Container 이해
-- [ ] Volume
-- [ ] Network
-- [ ] Docker Compose
-
+Linux (기본)
+        │
+        ▼
+Docker
+        │
+        ├─ Volume
+        ├─ Network
+        └─ Compose
+        │
+        ▼
+AWS SAA
+        │
+        ├─ IAM
+        ├─ VPC
+        ├─ EC2
+        ├─ EBS
+        ├─ S3
+        ├─ RDS
+        ├─ ALB
+        ├─ Auto Scaling
+        ├─ ECS
+        └─ EKS
 
 

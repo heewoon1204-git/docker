@@ -44,22 +44,6 @@ curl localhost
 ```
 
 ```bash
-Ubuntu(EC2)
-┌──────────────────────────────┐
-│                              │
-│  dockerd (Docker Engine)     │
-│                              │
-│   ┌────────────────────┐     │
-│   │ nginx Container    │     │
-│   │                    │     │
-│   │ nginx :80          │     │
-│   └────────────────────      │
-│                              │
-└──────────────────────────────┘
-```
-
-
-```bash
              내 pc
 
         http://EC2_Public_IP
@@ -82,4 +66,19 @@ Ubuntu(EC2)
                   │
                   ▼
       Welcome to nginx!
+```
+
+### 3. 프로세스 확인 
+컨테이너로 nginx가 실행됐지만, 컨테이너 안에 커널이 있는 가상머신과 다르게 커널이 없고 host에서 프로세스가 실행됨.
+```bash
+ps -ef | grep ngin
+```
+
+### 4. 컨테이너 내부 접속
+- exec : 실행 중인 컨테이너 안에서 명령어를 실행
+- bash : 컨테이너 안에서 실행할 프로그램
+- i : interactive로 표준 입력을 유지. 즉 키보드 입력을 계속 할 수 있게 해줌
+- t :tty로 터미널 환경을 만들어줌.
+```bash
+sudo docker exec -it web bash
 ```
