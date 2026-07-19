@@ -1,0 +1,21 @@
+VPC
+   ↓
+NAT Gateway
+   ↓
+NACL
+   ↓
+ALB
+   ↓
+Auto Scaling
+   ↓
+IAM
+   ↓
+S3
+   ↓
+RDS
+   ↓
+CloudWatch
+   ↓
+Terraform
+   ↓
+EKS
