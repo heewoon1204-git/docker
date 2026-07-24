@@ -26,7 +26,8 @@ AWS 기반 Infrastructure 및 Container Platform 학습 기록
 - [x] Auto Scaling Group, CloudWatch (ASG)
 - [x] IAM
 - [x] AWS Systems Manager (SSM) - Session manager
-- [ ] AWS Systems Manager (SSM) - Paramater store
+- [x] AWS Systems Manager (SSM) - Paramater store
+- [x] AWS Systems Manager (SSM) - Run Command
 - [ ] S3
 - [ ] ACM
 - [ ] Route 53
