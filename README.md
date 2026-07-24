@@ -24,8 +24,9 @@ AWS 기반 Infrastructure 및 Container Platform 학습 기록
 - [x] Application Load Balancer (ALB)
 - [x] Network Load Balancer (NLB)
 - [x] Auto Scaling Group, CloudWatch (ASG)
-- [ ] IAM
-- [ ] AWS Systems Manager (SSM)
+- [x] IAM
+- [x] AWS Systems Manager (SSM) - Session manager
+- [ ] AWS Systems Manager (SSM) - Paramater store
 - [ ] S3
 - [ ] ACM
 - [ ] Route 53
