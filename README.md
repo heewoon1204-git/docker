@@ -1,6 +1,6 @@
-# ☁️ Infra Study
+# ☁️ AWS / Container Infrastructure Hands-on
 
-통신 서비스 운영 및 데이터 전환 경험을 바탕으로 **클라우드 인프라 엔지니어**로 전환하기 위해 Docker와 AWS를 중심으로 학습 내용을 정리하고 있습니다.
+AWS 기반 Infrastructure 및 Container Platform 학습 기록
 
 ---
 
@@ -25,10 +25,10 @@
 - [x] Network Load Balancer (NLB)
 - [x] Auto Scaling Group, CloudWatch (ASG)
 - [ ] IAM
+- [ ] AWS Systems Manager (SSM)
 - [ ] S3
 - [ ] ACM
 - [ ] Route 53
-- [ ] AWS Systems Manager (SSM)
 - [ ] RDS
 - [ ] Terraform
 - [ ] EKS, helm
